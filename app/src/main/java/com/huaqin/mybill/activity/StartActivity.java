@@ -40,7 +40,7 @@ public class StartActivity extends BaseActivity {
                 }
                 finish();
             }
-        }, 5000); //延迟5秒跳转
+        }, 2000); //延迟5秒跳转
 
     }
 

@@ -37,7 +37,7 @@ public class MeFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        v = inflater.inflate(R.layout.me_fragment, container, false);
+        v = inflater.inflate(R.layout.activity_settings, container, false);
         Log.i(TAG, "onCreateView执行");
         return v;
     }
